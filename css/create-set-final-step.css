@@ -1,0 +1,276 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body,html,main,#editor-frame{
+	line-height: 1.6;
+    width: 100%;
+}
+
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+a { 
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+h1{
+    font-size: 2em;
+    color: black;
+    padding:25px 0px 25px 0px;
+    
+
+    
+}
+h2{
+    font-size: 1.5em;
+    color: black;
+    padding:20px 0px 10px 0px ;
+    text-align: center;
+}
+.inline{
+    display: inline-block;
+}
+label{
+    color:black;
+}
+hr{
+    background-color:black;
+}
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Header ---- */
+header{
+    background: #ED475C;
+}
+.logo{
+    height: 59px;
+    line-height: 55px;
+    
+}
+#main-nav{
+  line-height: 59px;  
+}
+#main-nav li{
+    display: inline-block;
+}
+#main-nav a{
+    padding:20px 5px 20px 7px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+#main-nav a:hover{
+    background-color: #7F111E;
+    color:#F86576;
+}
+
+#secondary-nav li{
+    display: inline-block;
+    line-height: 59px;
+}
+#secondary-nav a {
+     padding: 5px 0px 5px 0px;
+     font-size:1em;
+     color: black;
+}
+#secondary-nav a:hover {
+     color:yellowgreen;
+}
+.extra{
+    color:white;
+}
+
+/* ---- Main ---- */
+bod{
+}
+main{
+    background-image: url(../images/editor-background.png);
+    width: 100vw;
+    min-height: 100vh;
+    background-position:center;
+    background-size:cover;
+}
+
+
+.steps-container{ 
+    background-color:rgba(200,200,200,0.6);
+    padding:20px;
+    text-align: center;
+    border: 1px solid black;
+}
+div.selected{
+background-color: rgba(47,157,138,0.7);
+    color:white;
+}
+.grid-img{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+/* ---- Editor Settings ---- */
+
+
+
+
+/* ---- Section Right ---- */
+.right-side{
+    min-height: 85vw;
+}
+.outer{
+        width:75vw;
+        min-height:85vw;
+    background-color: rgba(200,200,200,0.8);
+
+
+        margin:20px auto;
+}
+
+.square{
+    width:75vw;
+    height:75vw;
+    background-color: aliceblue;
+    border:1px solid black;
+}
+.inner-square-pic{
+    background-color: white;
+    width: calc(75vw /3.13 );
+    height: calc(75vw / 3.15);
+}
+
+.relative{
+    position:relative;
+    padding-top:10px
+        
+}
+.outer h2,p{
+padding-left:10px;
+}
+.outer button{
+    position:absolute;
+    bottom: 10%;
+    right:1%;
+    min-width:40%
+}
+
+.options{
+    background: rgba(200,200,200,0.8);
+}
+.like-number{
+    border: 1px solid lightgrey;
+    padding:4px;
+    border-radius: 15%;
+    
+}
+.relative span{
+    
+}
+
+.stButton .stBubble_count , .st_twitter_vcount span,.st_facebook_vcount span, .st_pinterest_vcount span {
+height: 41px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- Footer ---- */
+
+footer{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background:rgba(60,10,10,0.6);
+    color:#ED475A;
+    font-size: 1.3em;
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media screen and (min-width: 768px) {
+  .outer {
+        width: 90vw;
+        min-height: 44vw;
+        float: left;
+        margin-left: 4vw;
+    }
+
+.square{
+    width:44vw;
+    height:44vw;
+    float:left;
+}
+     .inner-square-pic{
+    width: calc(44vw /3.1);
+    height: calc(44vw / 3.15);
+}
+    .wrapper{
+        padding-left: 44vw;
+    }
+    .right-side{
+    min-height: 44vw;
+}  
+   
+}    
+
+@media screen and (min-width: 992px) {
+
+    .outer {
+        width: 70vw;
+        min-height: 33vw;
+         margin-left:2vw;
+        
+    }
+    .square{
+    width:33vw;
+    height:33vw;
+/*    margin:5px;*/
+}
+    .inner-square-pic{
+    width: calc(33vw /3.15);
+    height: calc(33vw / 3.18);
+}
+    .wrapper{
+        padding-left: 33vw;
+    }
+    .right-side{
+    min-height: 33vw;
+}
+    
+}
+
+@media screen and (min-width: 1200px) {
+   
+    
+
+}
+
+
+
+
+
+
+
+
+

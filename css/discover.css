@@ -1,0 +1,284 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body,html,main,#editor-frame{
+	line-height: 1.6;
+    width: 100%;
+}
+
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+a { 
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+h1{
+    font-size: 2em;
+    color: black;
+    padding:5px 0px 0px 0px;
+
+    
+}
+h2{
+    font-size: 1.5em;
+    color: black;
+    padding:0px 0px 10px 0px ;
+}
+.inline{
+    display: inline-block;
+}
+label{
+    color:white;
+}
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Header ---- */
+header{
+    background: #ED475C;
+}
+.logo{
+    height: 59px;
+    line-height: 55px;
+    
+}
+#main-nav{
+  line-height: 59px;  
+}
+#main-nav li{
+    display: inline-block;
+}
+#main-nav a{
+    padding:20px 5px 20px 7px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+#main-nav a:hover{
+    background-color: #7F111E;
+    color:#F86576;
+}
+
+#secondary-nav li{
+    display: inline-block;
+    line-height: 59px;
+}
+#secondary-nav a {
+     padding: 5px 0px 5px 0px;
+     font-size:1em;
+     color: black;
+}
+#secondary-nav a:hover {
+     color:yellowgreen;
+}
+.extra{
+    color:white;
+}
+
+/* ---- Main ---- */
+bod{
+}
+main{
+    background-image: url(../images/discover-background.jpg);
+    width: 100vw;
+    min-height: 100vh;
+    background-position:left;
+    background-size:cover;
+    background-position: right;
+    
+    
+}
+main>h1{
+    margin-top: 40px;
+}
+main>h2{margin-top:10px;}
+
+#titles{
+ background:rgba(11,84,72,0.8);
+}
+
+
+/* ---- Main ---- */
+
+main ul{
+    margin-bottom: 30px;
+    margin-left:10%;
+    float:left;
+}
+main ul li{
+    padding:5px;
+    margin-left: 15px;
+}
+main ul li a{
+    padding:9px;
+}
+main ul p{
+
+    font-size: 1.2em;
+    color:grey;
+    background-color: white;
+}
+
+
+/* ---- Aside ---- */
+
+.selected-option{
+    font-weight: bold;
+    border: 1px solid grey;
+    
+}
+aside{
+/*    background-color: rgba(188,233,70,0.3);*/
+
+}
+
+
+
+/* ---- Section Right ---- */
+.right-side{
+    min-height: 100vh;
+}
+.outer{
+        width:75vw;
+        min-height:85vw;
+    background: rgba(11,84,72,0.4);
+       margin:20px auto;
+}
+
+.square{
+    width:75vw;
+    height:75vw;
+    background-color: aliceblue;
+    border:1px solid black;
+/*    background-image: url(../images/square3.jpg)*/
+}
+
+.inner-square-pic{
+    background-color: white;
+    width: calc(75vw /3.12 );
+    height: calc(75vw / 3.12);
+}
+
+.relative{
+    position:relative;
+    padding-top:10px
+        
+}
+.outer h2{
+/*    font-size: 1.4em;*/
+}
+.right{
+    position:absolute;
+    bottom: 10%;
+    right:1%;
+    width:40%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- Footer ---- */
+
+footer{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background:rgba(60,10,10,0.6);
+    color:#ED475A;
+    font-size: 1.3em;
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media screen and (min-width: 768px) {
+
+    .outer {
+        width: 44vw;
+        min-height: 50vw;
+        
+        float: left;
+        margin-left: 4vw;
+    }
+    .square{
+    width:44vw;
+    height:44vw;
+}
+    
+    .inner-square-pic{
+    width: calc(44vw /3.1);
+    height: calc(44vw / 3.1);
+}
+}
+    
+
+@media screen and (min-width: 992px) {
+     .outer {
+        width: 33vw;
+        min-height: 36vw;
+       
+         margin-left:2vw;
+        
+    }
+    .square{
+    width:33vw;
+    height:33vw;
+/*    margin:5px;*/
+}
+     .inner-square-pic{
+    width: calc(33vw /3.11);
+    height: calc(33vw / 3.11);
+}
+    }
+
+
+
+@media screen and (min-width: 1200px) {
+    
+ /* 3 sets per line version*/
+    /*
+   .outer {
+        width: 23vw;
+        min-height: 28vw;
+        background-color: antiquewhite;
+       margin-left:5px;
+        
+    }
+    .square{
+    width:23vw;
+    height:23vw;
+}
+*/
+    
+    
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/producs.css">
+
+
+    <title> Sign In</title>
+
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">
+        stLight.options({
+            publisher: "d104128d-ba98-4f64-96dd-9b00dde9d0d6",
+            doNotHash: false,
+            doNotCopy: false,
+            hashAddressBar: false
+        });
+    </script>
+
+</head>
+
+<body class="container-fluid">
+
+    <!--    facebook comments section-->
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!--  End of facebook comments sections  -->
+
+    <header class="row">
+        <div class="col-md-3 text-center logo">
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <nav>
+            <ul class="col-xs-8 col-md-4 col-md-push-2 text-left" id="main-nav">
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="createSet-step1.html">Create</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <ul class="col-xs-4 col-md-push-1 col-md-4 text-right" id="secondary-nav">
+                <li><a href="sign-in.html">Sign in</a></li>
+                <span class="extra">or</span>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="row">
+
+        <!--    Edit artist's set        -->
+        <section class="col-xs-12  outter-editor">
+            <section class="inner-editor col-xs-10 col-xs-push-1">
+                <h1 class="text-center"> Mix the set however you like and save it.</h1>
+                <div id="editor-frame">
+            <div id="grid">
+                <div class="grid-cell droppable" id="c1"></div>
+
+                <div class="grid-cell droppable" id="c2"></div>
+
+                <div class="grid-cell droppable" id="c3"></div>
+                <div class="grid-cell droppable" id="c4"></div>
+                <div class="grid-cell droppable" id="c5"></div>
+                <div class="grid-cell droppable" id="c6"></div>
+                <div class="grid-cell droppable" id="c7"></div>
+                <div class="grid-cell droppable" id="c8"></div>
+                <div class="grid-cell droppable" id="c9"></div>
+
+            </div>
+
+            <br>
+
+            
+                <div class="square-editor-mode draggable" id="square1"></div>
+                <div class="square-editor-mode draggable" id="square2"></div>
+                <div class="square-editor-mode draggable" id="square3"></div>
+                <div class="square-editor-mode draggable" id="square4"></div>
+                <div class="square-editor-mode draggable" id="square5"></div>
+                <div class="square-editor-mode draggable" id="square6"></div>
+                <br/>
+                    <button class="btn back-to-reality">Cancel</button><a href="#" class="btn btn-danger">Save set</a>
+                 
+        </div>
+
+
+            </section>
+        </section>
+
+        <h1 class="text-center">A mighty Set of Naughty Squares</h1>
+
+        <aside class="col-md-3">
+
+            <ul>
+                <p>Mix squares your way</p>
+                <li>
+                    <button class="btn btn-danger  edit-button">Start Editor</button>
+                </li>
+            </ul>
+
+
+            <ul>
+                <p>Show Squares</p>
+                <li><a href="#" class="selected-option">Grid</a></li>
+                <li><a href="#">T-shirt design</a></li>
+                <li><a href="#">Picture Frame</a></li>
+            </ul>
+
+            <div style="clear:both"></div>
+        </aside>
+
+        <section class="col-md-9 clearfix right-side">
+
+            <div class="outer">
+                <div class="square">
+                    <img class="inner-square-pic" / src="images/square1.jpg">
+                    <img class="inner-square-pic" src="images/square2.jpg" />
+                    <img class="inner-square-pic" src="images/square3.jpg" />
+
+                    <img class="inner-square-pic" />
+                    <img class="inner-square-pic" src="images/square1.jpg" />
+                    <img class="inner-square-pic" />
+
+                    <img class="inner-square-pic" src="images/square6.jpg" />
+                    <img class="inner-square-pic" src="images/square6.jpg" />
+                    <img class="inner-square-pic" src="images/square6.jpg" />
+                </div>
+
+                <div class="wrapper">
+                    <h2>A Mighty Set of Naughty Squares</h2>
+                    <p>by <a href="#">Rostislav Dimitrov</a></p>
+                    <br/>
+
+                    <p>Description DescriptionDescription Description Description Description Description Description Description Description Description Description Description Description Description </p>
+                    <br/>
+
+                    <p class="relative">
+
+                        <a class="btn btn-default glyphicon glyphicon-arrow-up">Like <span class="like-number">32</span></a>
+
+                        <br>
+                        <br>
+                        <span class='st_facebook_vcount' displayText='Facebook'></span>
+                        <span class='st_twitter_vcount' displayText='Tweet'></span>
+                        <span class='st_pinterest_vcount' displayText='Pinterest'></span>
+
+
+
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+        <section>
+            <div class="col-md-8 col-md-push-3">
+                <div class="row options">
+                    <div class="col-md-5">
+                        <p>What would you like to buy</p>
+                        <form>
+                            <input type="radio" name="product-option" value="postcard" checked> Squares as separate postcard pieces 13$
+                            <br>
+                            <input type="radio" name="product-option" value="t-shirt"> T-shirt 20$
+                            <br>
+                            <input type="radio" name="product-option" value="frame"> Square set in a picture frame 34$
+                        </form>
+                    </div>
+                    <div class="col-md-5 col-md-push-1">
+
+                        <br/>
+                        <br/>
+                        <a href="#" class="btn btn-success">Add to Card</a>
+
+                    </div>
+                </div>
+
+                <div class="fb-comments" data-href="http://squares.com/product" data-width="100%" data-numposts="3"></div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+    </main>
+    <footer class="row">
+        &copy; Squares 2016 - All Rights Reserverved
+    </footer>
+
+
+
+     <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/drag-drop.js"></script>
+
+</body>
+
+
+
+</html>
